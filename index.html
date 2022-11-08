@@ -4,7 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script src="script.js" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+      integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>qrCode-Generator</title>
   </head>
-  <body></body>
+  <body>
+    <textarea
+      placeholder="Inserisci qui il testo"
+      type="text"
+      id="textarea"
+      maxlength="750"
+    ></textarea>
+    <div id="qrcode"></div>
+  </body>
 </html>
